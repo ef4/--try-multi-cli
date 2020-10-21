@@ -23,6 +23,8 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
+    "broccoli-file-creator": "^2.1.1",
+    "broccoli-merge-trees": "^4.2.0",
     "ember-cli-babel": "^7.22.1",
     "ember-cli-htmlbars": "^5.3.1"
   },
@@ -63,5 +65,8 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "volta": {
+    "node": "12.19.0"
   }
 }
